@@ -1,0 +1,104 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#map-container {
+    height: 300px;
+}
+
+.grp {
+    margin-bottom: 30px;
+}
+
+.output {
+    position: fixed;
+    height: 80%;
+    width: 700px;
+    /* padding: 20px; */
+    font-size: 10px;
+    overflow: hidden;
+    /* right: 20px; */
+    /* left: 0px; */
+    background-color: #e5e5e5;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/*td, th{*/
+    /*width: 30%;*/
+/*}*/
+thead {
+    background-color: #5A5A5A;
+    color: white;
+    border-bottom: 1px solid rgb(39, 39, 39);
+}
+
+tbody:before {
+    line-height:0.5em;
+    content:"-";
+    color:white; /* to hide text */
+    display:block;
+}
+
+
+th {
+    text-align: left;
+    padding: 4px 2px 1px 5px;
+
+}
+
+td {
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+
+table {
+    width: 100%;
+    table-layout:fixed;
+}
+
+
+.ui-widget-header {
+    /*border: 1px solid #e78f08;*/
+    background: #448CB5;
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+}
+
+
+/*.a {*/
+    /*width: 15%;*/
+/*}*/
+
+/*.b {*/
+    /*width: 20%;*/
+/*}*/
+
+/*.c {*/
+    /*width: 20%;*/
+/*}*/
+
+/*.d {*/
+    /*width: 20%;*/
+/*}*/
+
+/*.e {*/
+    /*width: 20%;*/
+/*}*/
+
+/*.f {*/
+    /*width: 5%;*/
+/*}*/
